@@ -18,27 +18,101 @@ body {
     font-size: 12px;
     line-height: 1.4;
     font-family: Helvetica, Arial, sans-serif;
-    background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-    background-size: cover;
+    height: 100%;
+
 }
 
 
 /******************************************
 /* LAYOUT
 /*******************************************/
+.rows {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
 
-header {
+.ocean {
+  flex:1;
+  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-position: center center;
+}
+
+.ocean h1{
+font-size: 50px;
+font-weight: bold;
+font-family: Open Sans;
+color: white;
+padding-top: 40px;
+padding-left: 80px;
+}
+
+.ocean h2{
+  font-size: 38px;
+  font-weight: semibold;
+  font-family: Open Sans;
+  color: white;
+  padding-top: 150px;
+  padding-left: 400px;
+  padding-right: : 500px;
+}
+
+.ocean button{
+font-size: 26px;
+font-family: Open Sans;
+    font-weight: bold;
+    border-style: hidden;
+    background-color: yellow;
+ /* border-width: 5px; */
+ border-radius: 5px;
+ padding-left:40px;
+ padding-right:30px;
+ padding-top:10px;
+ padding-bottom:10px;
+ display:block;
+ margin:0 auto;
+}
+
+.benefits {
+  flex:1;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background: white;
+  color: black;
+}
+.benefits h1 {
+  font-size: 25px;
+  font-weight: bold;
+  font-family: Open Sans;
+  padding-left: 80px;
+  padding-top: 200px;
 
 }
 
-footer {
+.benefits h2{
+  font-size: 15px;
+  font-weight: light;
+  font-family: Open Sans;
+  padding-left: 80px;
+}
+.benefits ul {
+  font-size: 15px;
+  font-weight: light;
+  font-family: Open Sans;
+  padding-left: 80px;
+}
+
+.testimonial{
+  flex:1;
+  background-position: center center;
+  background-size: cover;
+  background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134,141,157);
 
 }
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
-
-
-
-
