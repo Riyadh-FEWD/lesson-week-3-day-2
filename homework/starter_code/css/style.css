@@ -32,17 +32,132 @@ a {
 /*******************************************/
 
 header {
+  background-color: #033048;
+  color: white;
+  width: 100%;
+  height: 100px;
+  margin: 0;
+  padding: 20px 0 0 50px;
+}
+
+header h1{
+  font-weight: 800;
+  font-size: 30px;
+  padding: 10px;
+  margin: 0;
+  float: left;
 
 }
 
-footer {
+header ul{
+  color: yellow;
+  text-align: right;
+  padding-right: 50px;
+  margin: 0;
+}
 
+header li{
+  display: inline-block;
+  padding: 10px 10px 0 30px;
+  margin: 0;
+}
+
+.section{
+  width: 60%;
+  background-color: #f0efef;
+  padding: 5px 0 50px 10px;
+  margin: 50px;
+  border-bottom: 2px solid #033048;
+
+}
+.section img{
+  width: 100%;
+}
+.section p:nth-child(1){
+  color: black;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.section p:nth-child(3)::first-letter{
+  font-size: 300%;
+  float: left;
+}
+
+.section a{
+  color: #033048;
+  font-size: 25px;
+  font-weight: 400;
+  padding: 90px 0 30px 75%;
+  margin: 40px 0 0 0;
+}
+
+.advs{
+  float: right;
+  width: 30%;
+  height: 50px;
+}
+
+.advs h1{
+  font-size: 32px;
+  font-weight: 600;
+  padding: 50px 0 0 0;
+  color: #033048;
+}
+
+.advs img{
+  width: 100%;
+  padding: 30px 80px 0 0;
+  height: 70vh;
+}
+
+.advs a{
+  font-size: 20px;
+  font-weight: 600;
+  color: #033048;
+}
+
+button{
+  border-radius: 5px;
+  background-color: #033048;
+  position: relative;
+  width: 200px;
+  height: 40px;
+  top: 20%;
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+footer div:first-child{
+  background-color: yellow;
+  height: 70px;
+  text-align: center;
+}
+
+footer div:nth-child(2){
+  background-color: black;
+  text-align: center;
+  color: yellow;
+  font-weight: 800;
+  font-size: 30px;
+  padding: 30px ;
+}
+
+footer p:last-child{
+  padding: 30px;
+  color: white;
+  font-weight: 300;
+  font-size: 10px;
+}
+
+footer img{
+  margin: 30px 10px 0 10px;
+  width: 30px;
+  height: 30px;
 }
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
-
-
-
-
