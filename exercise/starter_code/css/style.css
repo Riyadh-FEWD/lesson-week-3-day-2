@@ -18,27 +18,116 @@ body {
     font-size: 12px;
     line-height: 1.4;
     font-family: Helvetica, Arial, sans-serif;
-    background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-    background-size: cover;
 }
-
-
+.header{
+  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
+  height: 800px;
+}
+.header h1 {
+  padding-left: 110px;
+  padding-top: 60px;
+  font-size: 50px;
+  color:white;
+  font-weight: bolder;
+}
 /******************************************
 /* LAYOUT
 /*******************************************/
 
-header {
 
+.phrase p {
+  font-weight:bold;
+  font-size: 40px;
+  color:white;
+  text-align: center;
+  padding-top: 50px;
+}
+button {
+  background-color: yellow;
+  color: darkblue;
+  font-weight: bolder;
+  border-radius: 5px;
+  border:yellow;
+  font: 14px;
+  margin-left: 530px;
+  margin-top: 30px;
+  width: 170px;
+  height: 40px;
 }
 
-footer {
-
+.benefits {
+  background-color: #F5F5F5;
+  height: 350px;
+  padding-left: 70px;
+  padding-top: 70px;
+}
+.benefits h1 {
+  color: darkblue;
+  font-size: 35px;
+}
+.benefits p {
+  color: grey;
+  font-size: 15px;
+}
+.benefits ul {
+  color: grey;
+  font-size: 15px;
+  padding-top: 20px;
+  padding-left: 15px;
+  list-style-type: circle;
 }
 
-/******************************************
-/* ADDITIONAL STYLES
-/*******************************************/
+.Pic {
+background: url(../images/testimonial_bg.jpg) no-repeat top center #071324;
+height: 300px;
+background-size: cover;}
 
+.Endphrase p {
+color: #F5F5F5;
+font-style: italic;
+font-weight:100;
+font-size: 20px;
+text-align: center;
+padding-top: 60px;
+}
 
+.signup button {
+  background-color:#191970;
+  color: white;
+  font-weight: bolder;
+  border-radius: 5px;
+  border: #191970;
+  font: 14px;
+  margin-left: 530px;
+  margin-top: 30px;
+  width: 170px;
+  height: 40px;
+}
+.signup {
+  background-color: yellow;
+  padding-bottom: 30px;
+}
 
-
+.footer {
+text-align: center;
+background-color: black;
+margin-top: 0px;
+padding: 30px;
+padding-left: 10px;
+}
+.footer h2 {
+  font-size: 35px;
+  font-weight: bold;
+  color: yellow;
+  padding: 30px;
+}
+.footer p {
+  color: white;
+  padding-bottom:0px;
+  margin-top: 20px;
+}
+.footer img {
+  margin-left: 20px;
+  margin-right: 20px;
+}
