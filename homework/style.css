@@ -1,0 +1,282 @@
+*{
+  marging:0;
+  padding: 0;
+
+}
+body{
+color:#f0efef;
+font-family: 'open sans' ,arial;
+
+}
+a{
+  text-decoration: none;
+}
+
+
+
+.main-1{
+  padding-top: 20px;
+  padding-bottom: 80px;
+  width:100%;
+    background-image: url(header_bg.jpg);
+    background-size:cover;
+
+
+  }
+
+.main-1 h1{
+  margin-left:100px;
+  padding:20px;
+  text-align:left;
+  color:white;
+  font-weight:bolder;
+  font-size: 48px;
+}
+.main-1 h2 {
+  text-align:center;
+  color:white;
+  font-size:40px;
+  font-family: 'open sans',arial;
+  padding:100px;
+}
+.box {
+  padding: 30px;
+  display: block;
+  text-align:center;
+  margin:0 auto;
+
+  border-radius: 5px;
+  height:50px;
+  width:280px;
+  text-decoration: none;
+  background-color:#f9e42e;
+  color:black;
+  font-weight: 800;
+  font-size: 30px;
+
+}
+.main-2 {
+  margin-top: -35px;
+  padding-bottom:40px;
+  margin-left:0px;
+width:100%;
+  background-color:#f0efef;
+  text-align: center;
+}
+.main-2 h3{
+  padding: 30px;
+  margin-left: 120px;
+  font-size:38px;
+  font-family: 'open sans',arial;
+  color:#033048;
+  text-align: justify;
+  font-weight: lighter;
+  letter-spacing: 1px;
+}
+.main-2 p{
+
+  margin-left:130px;
+  text-align: justify;
+  color:#606161;
+  font-size:24px;
+  letter-spacing: 1px;
+  font-family: 'open sans',arial;
+
+}
+.main-2 ul {
+  list-style: disc;
+  margin:30px 0 0 80px;
+}
+.main-2 li{
+  padding:-5px;
+  margin-left:160px;
+  text-align:left;
+font-family: 'open sans',arial;
+  line-height: 40px;
+  text-indent:25px;
+  color:#606161;
+  font-size:18px;
+  letter-spacing: 1.5px;
+
+}
+.main-3{
+  margin-top: -20px;
+  background-image: url(testimonial_bg.jpg);
+  background-size:cover;
+  padding:100px;
+}
+.main-3 p{
+  text-align: center;
+  font-style: italic;
+  font-size: 34px;
+  letter-spacing: 1.5px;
+  line-height: 1.5;
+  color: white;
+}
+.main-3 h4{
+  text-align: center;
+  font-style: normal;
+  font-weight: bolder;
+  color:white;
+}
+.signUp{
+  border:none;
+  background-color:#f9e42e;
+  padding:40px;
+}
+.sign {
+  display: block;
+  text-decoration: none;
+  background-color: #033048;
+  color:white;
+  font-size: 24px;
+  font-weight: bold;
+    height:60px;
+    width:200px;
+    padding:10px;
+    margin-left:550px;
+    text-align: center;
+
+}
+.title{
+  float: left;
+  padding-top: 50px;
+  margin-left: 100px;
+  color:white;
+  font-weight: 800;
+  font-size: 48px;
+  font-family: arial;
+}
+header {
+  background-color: #033048
+
+}
+
+.nav-menu ul{
+  height: 100px;
+padding-top:100px;
+padding-left: 40px;
+padding-right: 40px;
+}
+.nav-menu ul li{
+  display:inline-block;
+ float:right;
+ margin-left: 80px;
+
+}
+
+.nav-menu ul li a{
+  list-style: none;
+  text-decoration: none;
+  color: yellow;
+  font-size: 30px;
+  font-family: monospace;
+}
+.nav-menu ul li a:hover {
+color: white;
+}
+.article-1{
+  margin-top: 50px;
+  margin-left: 100px;
+}
+hr{
+  width: 850px;
+
+}
+.article-1 h2{
+  margin-top: 20px;
+  margin-bottom: 30px;
+  margin-left: 70px;
+  color:#033048;
+  font-size: 48px;
+  font-family: arial;}
+  .article-1 img{
+    margin-left:80px;
+  }
+  .article-1 p{
+    padding-bottom: 30px;
+    margin-top: -40px;
+    margin-left: 80px;
+    font-size:20px;
+    line-height:1.4;
+    color:#606161;
+    font-family: monospace;
+  }
+  .first-letter{
+    font-size: 90px;
+    padding-bottom:20px;
+    padding-right: 8px;
+    padding-left: 3px;
+
+  }
+  .Read {
+    text-align: center;
+    padding-top:50px;
+    padding-right:150px;
+  }
+.Read a{
+  padding-top:20px;
+  color:#033048;
+padding-left:500px;
+    text-decoration: none;
+    font-weight: bolder;
+    font-family: arial;
+    font-size:34px;
+
+  }
+  aside{
+  float:right;
+  padding-top: 80px;
+
+  }
+.contaner{
+  display: flex;
+  flex-direction: column;
+
+}
+.contaner h3 {
+  color:#033048;
+  font-size:38px;
+  font-weight: 800;
+}
+.contaner ul li {
+  margin-top: 20px;
+  margin-bottom: 15px;
+  line-height: 1.2;
+  color:#043049;
+  font-size: 24px;
+
+}
+.contaner p {
+  margin-top: 20px;
+  color:#606161;
+  line-height: 1.5;
+  font-size: 20px;
+}
+.contaner a{
+  color: #033048;
+  font-weight: bold;
+}
+footer{
+padding:50px;
+  background-color:#121212;
+  text-align: center;
+  color: yellow;
+
+}
+footer h5 a {
+padding:-20px;
+  text-align: center;
+  font-weight: bold;
+  font-size:48px;
+  color: yellow;
+}
+img{
+  display: inline-block;
+  padding-top: 30px;
+  margin: 0 26px 75px;
+}
+footer p{
+  color:white;
+  font-size: 20px;
+}
