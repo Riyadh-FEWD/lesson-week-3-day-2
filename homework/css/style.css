@@ -1,0 +1,199 @@
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+ .header {
+   display: flex;
+   flex-flow: column;
+    color: #000;
+    font-size: 12px;
+    line-height: 1.4;
+    font-family: Helvetica, Arial, sans-serif;
+    background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+    background-size: cover;
+}
+
+.header-text {
+  display: flex;
+  padding: 21% 0;
+  flex-direction: column;
+  text-align: center;
+  margin: auto;
+}
+
+.header h1 {
+  color: #fff;
+  flex: 1;
+  font-size: 30px;
+  font-weight: 900;
+  margin-left: 80px;
+  margin-top: 20px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.header-text h2 {
+  font-size: 30px;
+  font-weight: 700;
+  color: white;
+  margin-top: -90px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.header-text button {
+  background: #f9e42e;
+  font-size: 20px;
+  font-weight: 900;
+  border-radius: 5px;
+  padding: 0;
+  margin-left: 110px;
+  margin-right: 110px;
+  padding: 10px;
+  margin-top: 110px;
+  font-family: 'Open Sans', sans-serif;
+  border: none;
+}
+
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+
+
+.grey-section {
+  background-color: #f0efef;
+}
+
+.grey-section-text {
+  display: flex;
+  padding: 8% 0;
+  flex-flow: column;
+  margin-left: 100px;
+  word-wrap: break-word;
+}
+
+.grey-section-text h1 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.grey-section-text p {
+  margin-bottom: 50px;
+  width: 48%;
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+.grey-section-text ul li {
+  list-style-type: circle;
+  margin-left: 80px;
+  padding: 5px;
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+  width: 30%;
+}
+
+.dark-section {
+  background: url(../images/testimonial_bg.jpg) no-repeat center top;
+  background-size: cover;
+}
+
+.dark-section-text {
+  display: flex;
+  padding: 5% 0;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-left: 500px;
+}
+
+.dark-section-text p {
+  font-size: 25px;
+  font-style: italic;
+  font-weight: 100;
+  color: #606161;
+  width: 470px;
+  padding: 10px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+ .dark-section-text .amanda {
+  color: white;
+  font-style: normal;
+  font-weight: 600;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.yellow-section {
+  background: #f9e42e;
+  padding: 1.5% 0;
+  text-align: center;
+}
+
+.yellow-section button {
+  background: #033048;
+  color: white;
+  font-weight: bold;
+  padding: 15px;
+  font-size: 20px;
+  border-radius: 5px;
+  border: none;
+  padding-left: 55px;
+  padding-right: 55px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.footer {
+  display: flex;
+  background: black;
+  color: white;
+  padding: 5% 0;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.footer ul {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-around;
+  margin-left: 650px;
+  margin-right: 650px;
+}
+
+img {
+  height: 30px;
+}
+
+
+.relaxr {
+  color: #f9e42e;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
